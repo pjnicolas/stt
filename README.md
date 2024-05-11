@@ -1,19 +1,19 @@
-# sst-windows
+# stt-windows
 
-## requirements
+## Requirements
 
 - windows 11
 - python3
 - pip
 - ffmpeg
 
-# phyton packages
+## Phyton packages
 
 ```powershell
 pip install sounddevice numpy openai pynput scipy threading pydub plyer
 ```
 
-# usage
+## Usage
 
 To use the `index.py` script for recording and transcribing audio:
 
@@ -22,6 +22,8 @@ To use the `index.py` script for recording and transcribing audio:
   ```bash
   python index.py
   ```
+
+  Or run the `stt.bat` file.
 3. **Recording Controls**:
   - **Start Recording**: Double press the 'Ctrl' key quickly to start recording.
   - **Stop and Save Recording**: Double press the 'Ctrl' key again to stop the recording and save it.
