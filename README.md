@@ -15,8 +15,6 @@ pip install sounddevice numpy openai pynput scipy threading pydub plyer
 
 ## Usage
 
-To use the `index.py` script for recording and transcribing audio:
-
 1. **Setup**: Ensure all required packages are installed as listed in the "phyton packages" section above.
 2. **Start the Script**: Run the script using Python:
   ```bash
@@ -24,6 +22,7 @@ To use the `index.py` script for recording and transcribing audio:
   ```
 
   Or run the `stt.bat` file.
+
 3. **Recording Controls**:
   - **Start Recording**: Double press the 'Ctrl' key quickly to start recording.
   - **Stop and Save Recording**: Double press the 'Ctrl' key again to stop the recording and save it.
